@@ -93,7 +93,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 img { max-width: 100%; height: auto; }
 #ie8 img { width: auto; }
 
-#body-area { background-attachment: scroll; background-color: #013660; background-image: url("http://localhost/wordpress/wp-content/uploads/2013/04/pyramid.gif"); background-position: left top; background-repeat: repeat; padding-top: 20px; }
+#body-area { background-attachment: scroll; background-color: #013660; background-image: url("images/pyramid.gif"); background-position: left top; background-repeat: repeat; padding-top: 20px; }
 	.container { text-align: left; margin: 0 auto; width: 1280px; position: relative; -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); background-color: #fff; }
 			#main-header { padding: 53px 62px 53px 80px; }
 				#logo, #slogan { float: left; }

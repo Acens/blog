@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+	<?php if ( 'on' == et_get_option( 'foxy_featured', 'on' ) ) get_template_part( 'includes/featured' ); ?>
 	<?php get_template_part( 'includes/breadcrumbs', 'index' ); ?>
 
 	<?php get_template_part( 'includes/top_info', 'index' );  ?>

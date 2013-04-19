@@ -1,4 +1,5 @@
 <div class="pagination clearfix">
-	<div class="alignleft"><?php next_posts_link(esc_html__('&laquo; Older Entries','Foxy')) ?></div>
-	<div class="alignright"><?php previous_posts_link(esc_html__('Next Entries &raquo;', 'Foxy')) ?></div>
+<?php if(function_exists('wp_paginate')) {
+    wp_paginate();
+} ?>
 </div>
